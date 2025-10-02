@@ -3,10 +3,8 @@ body {
   font-family: "Segoe UI", sans-serif;
   color: #222;
   text-align: center;
-
-  /* 🔹 Background image */
   background-image: url("/bg.jpg");
-  background-size: cover;       /* make it fill the screen */
-  background-position: center;  /* center the image */
-  background-attachment: fixed; /* makes it look parallax */
+  background-size: cover;       
+  background-position: center;  
+  background-attachment: fixed; 
 }
