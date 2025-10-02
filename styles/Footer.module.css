@@ -1,0 +1,14 @@
+.bottomStrip {
+  margin-top: 40px;
+  padding: 18px;
+  background-color: #22577a;
+  color: #fff;
+  border-top: 6px solid #38a3a5;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.bottomStrip:hover {
+  background-color: #38a3a5;
+  color: #fff;
+}

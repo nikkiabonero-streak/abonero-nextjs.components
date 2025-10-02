@@ -1,0 +1,23 @@
+.topBar {
+  background-color: #22577a;
+  padding: 22px;
+  color: #fff;
+  border-bottom: 6px solid #38a3a5;
+}
+
+.mainTitle {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.subTitle {
+  margin: 6px 0 0;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #57cc99;
+}
+
+.topBar:hover {
+  background-color: #38a3a5;
+  color: #fff;
+}

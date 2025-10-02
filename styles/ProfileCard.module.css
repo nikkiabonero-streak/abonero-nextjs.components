@@ -1,0 +1,46 @@
+.identityBox {
+  background: rgba(0, 0, 0, 0.5); 
+  max-width: 330px;
+  margin: 25px auto;
+  padding: 24px;
+  border-radius: 14px;
+  border: 2px solid #38a3a5;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.identityBox:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+.displayPhoto {
+  width: 158px;
+  border-radius: 50%;
+  margin-bottom: 18px;
+  border: 3px solid #57cc99;
+  transition: transform 0.3s ease;
+}
+
+.displayPhoto:hover {
+  transform: scale(1.1) rotate(2deg);
+}
+
+.personName {
+  margin: 10px 0;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.basicInfo {
+  margin: 4px 0;
+  font-weight: 500;
+  color: #44b4ff;
+}
+
+.aboutText {
+  margin-top: 8px;
+  font-style: italic;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 1.5;
+}
